@@ -5,6 +5,7 @@ import utils.InputToList;
 
 import java.io.*;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class AdventOfCodeOne {
 
@@ -26,15 +27,7 @@ public class AdventOfCodeOne {
 
         List<Double> listOfModules = inputToList.getListFromInputPath("src/main/resources/adventOfCodeOneInput.txt", converter);
 
-
-        Double nextModule;
-        int totalFuel = 0;
-
-        listOfModules.stream().map(AdventOfCodeOne::calculateFuel).
-
-        while((nextModule = listOfModules.iterator().next()) != null) {
-            totalFuel += AdventOfCodeOne.calculateFuel(nextModule);
-        }
+        int totalFuel = listOfModules.stream().map(AdventOfCodeOne::calculateFuel).mapToInt(Integer::intValue).sum();
 
         System.out.println(totalFuel);
     }
