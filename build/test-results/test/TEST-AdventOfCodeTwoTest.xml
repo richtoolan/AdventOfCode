@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AdventOfCodeTwoTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-12-06T11:11:13" hostname="C02PN139FVH6" time="0.116">
+  <properties/>
+  <testcase name="shouldRunProgram2()" classname="AdventOfCodeTwoTest" time="0.02"/>
+  <testcase name="shouldRunProgram3()" classname="AdventOfCodeTwoTest" time="0.004"/>
+  <testcase name="shouldRunProgram4()" classname="AdventOfCodeTwoTest" time="0.006"/>
+  <testcase name="shouldRunProgram5()" classname="AdventOfCodeTwoTest" time="0.008"/>
+  <testcase name="shouldRunProgram6()" classname="AdventOfCodeTwoTest" time="0.005"/>
+  <testcase name="shouldRunProgram()" classname="AdventOfCodeTwoTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
